@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Sign Up";
+}
+
+<form>
+    <label>Hours:</label>
+    <input type="number" id="hours" />
+    <br />
+    <br />
+    <label>Price per Hour:</label>
+    <input type="number" value="1000" id="price" disabled/>
+    <br />
+    <br />
+    <button type="button" id="formSubmit">Calculate Total</button>
+</form>
+<p id="output"></p>
